@@ -322,21 +322,23 @@ export default function Home() {
                   </div>
 
                   <div className="cart-item-controls">
-                    <button
-                      onClick={() => updateQuantity(item.product.id, item.quantity - 1)}
-                      className="quantity-btn"
-                      aria-label="Diminuisci quantità"
-                    >
-                      −
-                    </button>
-                    <span className="quantity-display">{item.quantity}</span>
-                    <button
-                      onClick={() => updateQuantity(item.product.id, item.quantity + 1)}
-                      className="quantity-btn"
-                      aria-label="Aumenta quantità"
-                    >
-                      +
-                    </button>
+                    <div className="quantity-controls">
+                      <button
+                        onClick={() => updateQuantity(item.product.id, item.quantity - 1)}
+                        className="quantity-btn"
+                        aria-label="Diminuisci quantità"
+                      >
+                        −
+                      </button>
+                      <span className="quantity-display">{item.quantity}</span>
+                      <button
+                        onClick={() => updateQuantity(item.product.id, item.quantity + 1)}
+                        className="quantity-btn"
+                        aria-label="Aumenta quantità"
+                      >
+                        +
+                      </button>
+                    </div>
                     <span className="cart-item-subtotal">
                       {formatPrice(item.product.price * item.quantity)}
                     </span>
