@@ -279,7 +279,7 @@ export default function Home() {
         <div className="hero-content">
           <h1>Eccellenze Vinicole Italiane</h1>
           <p className="hero-subtitle">
-            Scopri la nostra selezione di vini rossi pregiati dalle migliori regioni d'Italia
+            Scopri la nostra selezione di vini rossi pregiati dalle migliori regioni d&apos;Italia
           </p>
           <a href="#collezione" className="cta-button">Esplora la Collezione</a>
         </div>
@@ -360,7 +360,7 @@ export default function Home() {
 
               <div className="cart-actions">
                 <button onClick={handleCheckout} className="checkout-btn">
-                  🔒 Procedi all'Acquisto
+                  🔒 Procedi all&apos;Acquisto
                 </button>
                 <button onClick={clearCart} className="clear-cart-btn">
                   Svuota Carrello
@@ -376,7 +376,7 @@ export default function Home() {
           <div className="footer-logo">🍷</div>
           <h3>Vini Pregiati</h3>
           <p>Passione per il vino dal 1892</p>
-          <p>Selezioniamo solo i migliori vini dalle cantine più prestigiose d'Italia</p>
+          <p>Selezioniamo solo i migliori vini dalle cantine più prestigiose d&apos;Italia</p>
           
           <div className="footer-divider"></div>
           

@@ -73,7 +73,7 @@ export default function SuccessPage() {
 
         <h1 className="success-title">Ordine Confermato!</h1>
         <p className="success-subtitle">
-          Grazie per il tuo acquisto. Riceverai una email di conferma all'indirizzo: 
+          Grazie per il tuo acquisto. Riceverai una email di conferma all&apos;indirizzo:
           <strong> {orderData.customer.email}</strong>
         </p>
 
@@ -157,7 +157,7 @@ export default function SuccessPage() {
               <div className="step-number">1</div>
               <div className="step-content">
                 <h3>Conferma Email</h3>
-                <p>Riceverai una email di conferma con i dettagli dell'ordine</p>
+                <p>Riceverai una email di conferma con i dettagli dell&apos;ordine</p>
               </div>
             </div>
             <div className="next-step">
